@@ -131,7 +131,7 @@ const purchased  = ()=>{
 
  
            }else{
-               window.alert("You are at Wrong Netweok, Connect with Roposten Please")
+               window.alert("You are at Wrong Netweok, Connect with Binance Please")
            }
 
 
