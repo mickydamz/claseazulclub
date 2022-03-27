@@ -43,7 +43,7 @@ import Link from 'next/link'
             <a className="text-gray-700 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Purchased</a>
             </Link>
                 <Link href="/dashboard">
-            <a  className="text-gray-700 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Dashbaord</a>
+            <a  className="text-gray-700 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Dashboard</a>
             </Link>
                 <Link href="/create-nfts">
             <a  className="text-gray-700 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Create NFt</a>
@@ -66,7 +66,7 @@ import Link from 'next/link'
       <a  className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Purchased</a>
       </Link>
                 <Link href="/dashboard">
-      <a  className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Dashbaord</a>
+      <a  className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Dashboard</a>
       </Link>
          <Link href="/create-nfts">
       <a  className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Create NFt</a>
