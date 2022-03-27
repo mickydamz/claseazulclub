@@ -5,7 +5,7 @@ import Link from 'next/link'
  const NavBar = () => {
     return (
         <div>
-<nav className="bg-gray-800">
+<nav className="bg-gray-400">
   <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
     <div className="relative flex items-center justify-between h-16">
       <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -23,15 +23,13 @@ import Link from 'next/link'
       </div>
       <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
         <div className="logo flex-shrink-0 flex items-center">
+        <Link  href="/">
         <div className="flex-shrink-0 flex items-center">
-          <img className="block lg:hidden h-8 w-auto" src="https://ardapps.com/wp-content/uploads/2021/11/icon-2.png" alt="Workflow"/>
-          <img className="hidden lg:block h-8 w-auto" src="https://ardapps.com/wp-content/uploads/2021/11/icon-2.png" alt="Workflow"/>
+          <img className="block lg:hidden h-10 w-auto" src="./logo.png"  alt="Workflow"/>
+          <img className="hidden lg:block h-10 w-auto" src="./logo.png" alt="Workflow"/>
+          
         </div>
-        <div className="logoName">
-            <Link  href="/">
-            <a className="text-yellow-500 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-lg font-bold">Arabic NFTs</a>
-            </Link>
-            </div>
+        </Link>
 
 
         </div>
@@ -39,16 +37,16 @@ import Link from 'next/link'
         <div className="hidden sm:block sm:ml-6">
           <div className="flex space-x-4">
               <Link href="/">
-            <a className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium" aria-current="page">Explore</a>
+            <a className="text-gray-700 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium" aria-current="page">Explore</a>
                 </Link>
                 <Link  href="/purchased">
-            <a className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Purchased</a>
+            <a className="text-gray-700 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Purchased</a>
             </Link>
                 <Link href="/dashboard">
-            <a  className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Dashbaord</a>
+            <a  className="text-gray-700 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Dashbaord</a>
             </Link>
                 <Link href="/create-nfts">
-            <a  className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Create NFt</a>
+            <a  className="text-gray-700 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Create NFt</a>
             </Link>
                 
           </div>
