@@ -26,7 +26,7 @@ import React from 'react'
                   
                 </div>
               </div>
-              <div className="text-xl text-white font-semibold mt-1">{props.children.price} ETH </div>
+              <div className="text-xl text-white font-semibold mt-1">{props.children.price} BNB </div>
          
               <div className="flex space-x-2 text-sm font-medium justify-start">
                 <button className="transition ease-in duration-300 inline-flex items-center text-sm font-medium mb-2 md:mb-0 bg-yellow-500 px-5 py-2 hover:shadow-lg tracking-wider text-white rounded-full hover:bg-gray-600 ">

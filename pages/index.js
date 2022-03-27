@@ -263,7 +263,7 @@ const buyNFT = async (nftItem)=>{
             </div>
             <div className="col-span-2 pt-1 ">
               <p className="text-gray-800 font-bold lg:text-sm">Price</p>
-              <p className="text-gray-500 text-sm font-bold">{item.price} ETH</p>
+              <p className="text-gray-500 text-sm font-bold">{item.price} BNB</p>
             </div>
         
           </div>
