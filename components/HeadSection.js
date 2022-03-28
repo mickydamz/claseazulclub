@@ -100,7 +100,7 @@ const HeadSection = () => {
                        <span className="block dark:text-white xl:inline">lifestyle, welcome to Clase Azul club nfts</span>
                        </h1>
                        <p className="mt-3 text-base dark:text-white sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0" >
-                       on the world's first & largest NFT marketplace,this Arabic Dapps Course that is will learn more about nfts and solidity programming language   </p>
+                       The same care and craftsmanship, we take in crafting our drinks, we have used to craft our exquisite nft's  </p>
                     
                            <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                        <div className="rounded-md shadow">
@@ -123,8 +123,8 @@ const HeadSection = () => {
                    </main>
                </div>
                </div>
-               <div className="lg:absolute lg:inset-y-3 lg:right-0 lg:w-1/2">
-               <img className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://ardapps.com/wp-content/uploads/2021/11/head-1.png" alt="headerSection Image" />
+               <div className=" p-7 lg:absolute lg:inset-y-3 lg:right-0 lg:w-1/2">
+               <img className="h-50 w-full object-contain sm:h-72 md:h-96 lg:w-full lg:h-full" src="./head.jpg" alt="headerSection Image" />
                </div>
                </div>
 

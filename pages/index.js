@@ -194,7 +194,7 @@ const buyNFT = async (nftItem)=>{
              (unsoldItems.length < 5 )?
               <>
               <h1 className=" py-20 text-4xl tracking-tight font-extrabold text-yellow-500 sm:text-5xl md:text-6xl">
-                  <span className="block lg:py-3 xl:inline">There is Lessthan 5 NFts </span>
+                  <span className="block lg:py-3 xl:inline">PRIVATE NFT'S CRAFTED BY OUR BEST CLASE AZUL CLUB ARTISTS</span>
                   </h1> 
              </>:
              <>
@@ -233,12 +233,12 @@ const buyNFT = async (nftItem)=>{
              
                <div className="px-4 " style={{maxWidth:"1600px"}}>
                <h1 className=" px-10 text-xl tracking-tight font-extrabold text-yellow-500 sm:text-3xl md:text-4xl">
-                  <span className="block lg:py-3 xl:inline">Explore All Nfts Nad Buy</span>
+                  <span className="block lg:py-3 xl:inline">Discover our collection</span>
                   </h1> 
               {
                   !unsoldItems.length ? 
                    <h1 className=" py-20 text-4xl tracking-tight font-extrabold text-yellow-500 sm:text-5xl md:text-6xl">
-                  <span className="block lg:py-3 xl:inline">Explore the High Uinque Nfts Item </span>
+                  <span className="block lg:py-3 xl:inline">Explore the best crafted Nfts, crafted with to leave a lasting memory</span>
                   </h1> :<>
 
 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3 pt-1">
