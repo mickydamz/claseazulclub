@@ -41,18 +41,17 @@ export default function Home() {
       <Toaster position="top-center" reverseOrder={false} />
       {(
         <>
-          
+          <Heading />
           
           <Example />
          
           <Continue />
           <Missing />
-          
+          <Moving />
           <Lower />
           <Incentives/>
-          <Moving />
           <Content />
-          
+          <Footer />
 
 
         </>

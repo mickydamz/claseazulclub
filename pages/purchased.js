@@ -131,7 +131,7 @@ const purchased  = ()=>{
 
  
            }else{
-               window.alert("You are at Wrong Netweok, Connect with Binance Please")
+               window.alert("You are at Wrong Network, Connect with Binance Please")
            }
 
 
@@ -155,10 +155,11 @@ const purchased  = ()=>{
                   !purchasedItems.length ? 
                  <>
                  
-                   <HeadAlert >{{account:account,createdNumber:"You Don`t Buy Any NFTs Yet",title:"OOOPS"}}</HeadAlert>
+                   <HeadAlert >{{account:account,createdNumber:"You Do not have any nft's yet",title:"OOOPS"}}</HeadAlert>
 
                   </> :<>
                   <HeadAlert >{{account:account,createdNumber:`You Purchased ${purchasedItems.length} NFTS`,title:"Good Job"}}</HeadAlert>
+                  
 
 
 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3 pt-1">

@@ -160,7 +160,7 @@ const dashboard  = ()=> {
 
               {
                   !creathedItems.length ? 
-                   <h1 className=" py-20 text-4xl tracking-tight font-extrabold text-blue-500 sm:text-5xl md:text-6xl">
+                   <h1 className=" py-20 text-4xl tracking-tight font-extrabold text-yellow-500 sm:text-5xl md:text-6xl">
                   <span className="block lg:py-3 xl:inline">You Don`t Have Any  Nft Item </span>
                   </h1> :<>
 
@@ -216,7 +216,7 @@ const dashboard  = ()=> {
 
               {
                   !soldItems.length ? 
-                   <h1 className=" py-20 text-4xl tracking-tight font-extrabold text-blue-500 sm:text-5xl md:text-6xl">
+                   <h1 className=" py-20 text-4xl tracking-tight font-extrabold text-yellow-500 sm:text-5xl md:text-6xl">
                   <span className="block lg:py-3 xl:inline">You Don`t Have Any  Sold Item </span>
                   </h1> :<>
 

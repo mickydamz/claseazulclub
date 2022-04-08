@@ -155,9 +155,9 @@ const ipfsClient = create("https://ipfs.infura.io:5001/api/v0");
                 const lanchTheNFtForSale = await deployedMarketContract.methods.createItemForSale(nftAddress,tokenid,priceToWei).send({from:account,value:marketFees})
                 router.push("/")
             } else{
-                window.alert(" UNlock Your Wallet Or Please install any provider wallet like MetaMask")
+                window.alert(" Unlock Your Wallet Or Please install any provider wallet like MetaMask")
                 
-                router.push("https://metamask.io/download.html")
+                // router.push("https://metamask.io/download.html")
             }
 
          
@@ -165,7 +165,7 @@ const ipfsClient = create("https://ipfs.infura.io:5001/api/v0");
 
  
            }else{
-               window.alert("You are at Wrong Netweok, Connect with Binance Please")
+               window.alert("You are at Wrong Network, Connect with Binance Please")
            }
 
 
