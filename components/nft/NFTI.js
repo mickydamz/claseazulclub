@@ -2,7 +2,7 @@ import { IoMdSnow } from 'react-icons/io'
 import { AiOutlineHeart } from 'react-icons/ai'
 
 import Image from 'next/image'
-import homeimg from '../../assets/Homeimg.jpeg'
+import homeimg from '../../assets/homeimg.jpeg'
 
 
 const style = {
