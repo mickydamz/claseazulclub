@@ -25,18 +25,12 @@ const solutions = [
   },
   {
     name: 'Home',
-    description: 'clase azul hoem',
+    description: 'clase azul home',
     href: 'https://theazulclub.com',
     icon: CursorClickIcon,
   },
   { name: 'Purchases', description: "view purchases", href: '#', icon: ShieldCheckIcon },
-  {
-    name: 'Purchased',
-    description: 'Connect to purchase',
-    href: '/purchased',
-    icon: CursorClickIcon,
-  },
- 
+
 ]
 const resources = [
   {
@@ -229,6 +223,24 @@ const connectMetamask = async () => {
               </div>
               <div className="mt-6">
                 <nav className="grid gap-6">
+                {
+                               !account?      
+                               <a
+                               href=""
+                               onClick={connectMetamask} className="ml-8 inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
+                             >
+                               Connect wallet
+                             </a>
+                        
+                        :
+                        <a
+                        href="#"
+                        className="ml-8 inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
+                      >
+                        Connected
+                      </a>
+                           }
+                           
                   {solutions.map((item) => (
                     <a
                       key={item.name}
