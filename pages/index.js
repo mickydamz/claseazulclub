@@ -317,7 +317,7 @@ console.log(result)
                   alt="eth"
                   className={style.ethLogo}
                 />
-                {''}5K
+                {'5K'}
               </div>
               <div className={style.statName}>volume traded</div>
             </div>
