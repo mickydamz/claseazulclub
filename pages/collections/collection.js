@@ -326,7 +326,7 @@ console.log(result)
           </div>
         </div>
         <div className={style.midRow}>
-         
+          {/* <div className={style.description}>{'azul club nfts'}</div> */}
         </div>
       </div>
       <div className="flex flex-wrap ">

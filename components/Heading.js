@@ -73,11 +73,11 @@ export default function Example() {
         <div className="hidden md:flex-1 md:flex md:items-center md:justify-between">
           <Popover.Group as="nav" className="flex space-x-10">
             
-          <a href="/" className="text-base font-medium text-gray-500 hover:text-gray-900">
+          <a href="https://theazulclub.com" className="text-base font-medium text-gray-500 hover:text-gray-900">
               Home
             </a>
 
-            <a href="/collections/collection" className="text-base font-medium text-gray-500 hover:text-gray-900">
+            <a href="/" className="text-base font-medium text-gray-500 hover:text-gray-900">
               Collections
             </a>
 
@@ -90,7 +90,7 @@ export default function Example() {
             </a>
           
 
-            <a href="/collections/collection" className="text-base font-medium text-gray-500 hover:text-gray-900">
+            <a href="/" className="text-base font-medium text-gray-500 hover:text-gray-900">
               Buy NFT
             </a>
 
@@ -103,7 +103,7 @@ export default function Example() {
               href="/create-nfts"
               className="ml-8 inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
             >
-              Create NFTs
+              Connect wallet
             </a>
           </div>
         </div>
