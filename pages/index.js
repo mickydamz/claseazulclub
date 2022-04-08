@@ -7,8 +7,6 @@ import { CgWebsite } from 'react-icons/cg'
 import { AiOutlineInstagram, AiOutlineTwitter } from 'react-icons/ai'
 import { HiDotsVertical } from 'react-icons/hi'
 import Image from 'next/image'
-import backgroundcol from '../../assets/backgroundcol.jpeg'
-import Calogo from '../../assets/Calogo.png'
 
 
 
