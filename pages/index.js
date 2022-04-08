@@ -262,7 +262,7 @@ console.log(result)
         <div className={style.midRow}>
          
         </div>
-        <div className={style.endRow}>
+        {/* <div className={style.endRow}>
           <div className={style.socialIconsContainer}>
             <div className={style.socialIconsWrapper}>
               <div className={style.socialIconsContent}>
@@ -284,7 +284,7 @@ console.log(result)
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className={style.midRow}>
           <div className={style.title}>{'azul club'}</div>
         </div>
@@ -309,8 +309,8 @@ console.log(result)
             <div className={style.collectionStat}>
               <div className={style.statValue}>
                 <img
-                  src="https://storage.opensea.io/files/6f8e2979d428180222796ff4a33ab929.svg"
-                  alt="eth"
+                  src="https://seeklogo.com/images/B/binance-coin-bnb-logo-97F9D55608-seeklogo.com.png"
+                  alt="bnb"
                   className={style.ethLogo}
                 />
                 {'45'}
@@ -320,8 +320,8 @@ console.log(result)
             <div className={style.collectionStat}>
               <div className={style.statValue}>
                 <img
-                  src="https://storage.opensea.io/files/6f8e2979d428180222796ff4a33ab929.svg"
-                  alt="eth"
+                  src="https://seeklogo.com/images/B/binance-coin-bnb-logo-97F9D55608-seeklogo.com.png"
+                  alt="bnb"
                   className={style.ethLogo}
                 />
                 {'5K'}
@@ -362,8 +362,8 @@ console.log(result)
               <div className={style.priceTag}>Price</div>
               <div className={style.priceValue}>
                 <img
-                  src="https://storage.opensea.io/files/6f8e2979d428180222796ff4a33ab929.svg"
-                  alt="eth"
+                  src="https://seeklogo.com/images/B/binance-coin-bnb-logo-97F9D55608-seeklogo.com.png"
+                  alt="bnb"
                   className={style.ethLogo}
                 />
                 {item.price}
