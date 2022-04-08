@@ -189,6 +189,7 @@ useEffect(()=>{
 
 
        }else{
+         
            window.alert("You are at Wrong Network, Connect with Binance Please")
        }
 
@@ -229,7 +230,7 @@ const priceToWei = Web3.utils.toWei((nftItem.price).toString(),"ether")
 const convertIdtoInt = Number(nftItem.itemId)
 
 router.push({
-  pathname: `/nfts/nft`,
+  pathname: `/nfts/${nftItem.itemId}`,
   
 })
 const result =  await marketContract.methods.createMarketForSale(nftAddress,convertIdtoInt).send({from:account,value:priceToWei})
