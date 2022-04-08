@@ -153,6 +153,12 @@ export default function Home() {
 
  
            }else{
+            if (window.ethereum) {
+              web3 = new Web3(window.ethereum);
+          } else {
+              // Code for HttpProvider remains unchanged
+          }
+          await window.ethereum.send('eth_requestAccounts');
                window.alert("You are at Wrong Network, Connect with Binance Please")
            }
 
