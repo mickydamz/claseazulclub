@@ -189,6 +189,7 @@ useEffect(()=>{
 
 
        }else{
+        setUnsoldItems(items)
          
            window.alert("You are at Wrong Network, Connect with Binance Please")
        }
