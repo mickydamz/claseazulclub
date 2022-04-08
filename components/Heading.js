@@ -17,18 +17,18 @@ const solutions = [
   {
     name: 'Collections',
     description: 'Get a better understanding of where your traffic is coming from.',
-    href: '/collections/collection',
+    href: '/',
     icon: ChartBarIcon,
   },
   {
     name: 'Home',
     description: 'Speak directly to your customers in a more meaningful way.',
-    href: '/',
+    href: 'https://theazulclub.com',
     icon: CursorClickIcon,
   },
   { name: 'Purchases', description: "Your customers' data will be safe and secure.", href: '#', icon: ShieldCheckIcon },
   {
-    name: 'Connect',
+    name: 'Purchased',
     description: 'Connect to purchase',
     href: '/purchased',
     icon: CursorClickIcon,
