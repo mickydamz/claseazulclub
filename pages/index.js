@@ -337,13 +337,7 @@ console.log(result)
                     <>
                      <div
       className={style.wrapper}
-      onClick={() => {
-        router.push({
-            pathname: `/nfts/nft`,
-            
-          })
-       
-      }}
+      onClick = {()=>nextPage(item)}
     >
       <div className={style.imgContainer}>
         <img src={item.image} alt={''} className={style.nftImg} />
