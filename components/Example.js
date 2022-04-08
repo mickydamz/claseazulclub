@@ -23,7 +23,7 @@ import { useState,useEffect } from 'react'
 import Web3 from "web3"
 import detectEthereumProvider from '@metamask/detect-provider'
 import Image from 'next/image'
-import homeimg from '../assets/Homeimg.jpeg'
+import homeimg from '../assets/homeimg.jpeg'
 
 const Example =  function Example() {
 
